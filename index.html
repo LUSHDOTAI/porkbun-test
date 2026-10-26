@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Porkbun Deploy Test</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin:0; min-height:100vh; display:grid; place-items:center;
+         font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+         background:#0b1320; color:#e6f1fb; text-align:center; padding:24px; }
+  .card { max-width:560px; }
+  .ok { font-size:13px; letter-spacing:.2em; text-transform:uppercase;
+        color:#2dd4a7; margin-bottom:16px; }
+  h1 { font-size:clamp(28px,6vw,44px); margin:0 0 12px; font-weight:800;
+       letter-spacing:-0.02em; }
+  p { font-size:17px; line-height:1.6; color:#9fb3cc; margin:0 0 24px; }
+  .marker { display:inline-block; font-family: ui-monospace, Menlo, monospace;
+            font-size:15px; padding:10px 18px; border:1px solid #243247;
+            border-radius:8px; background:#111c2e; color:#e6f1fb; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="ok">&#9679; GitHub &rarr; Porkbun</div>
+    <h1>Deploy test is live</h1>
+    <p>If you can read this on your Porkbun domain, the GitHub&nbsp;Connect link
+       is working. Change the build marker below, commit, and push to confirm
+       automatic redeploy.</p>
+    <div class="marker">BUILD&nbsp;001 &middot; 2026-10-26</div>
+  </div>
+</body>
+</html>
